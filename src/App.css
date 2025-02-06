@@ -114,22 +114,7 @@
 a {
   text-decoration: none !important;
 }
-.whatsapp-float {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  left: auto;
-  right: 15px;
-  background-color: #042343;
-  color: #FFF;
-  border-radius: 50%;
-  z-index: 1000;
-  transform: scaleX(-1);
-}
+
 body {
   font-family: "Cairo", sans-serif !important;
   font-weight: 300 !important;

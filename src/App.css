@@ -1,0 +1,168 @@
+:root {
+   --frist-color: #002366;
+    --secondary-color: #66CDAA;
+     --th-color: #FFA500; 
+     --fo-color: #D3D3D3
+     }
+
+
+
+
+/* ====== CUSTOM FONTS =======*/
+@font-face {
+  font-family: "Cairo";
+  src: url('/public/fonts/Cairo/Cairo-Black.ttf');
+  font-weight: 900;
+  
+}
+@font-face {
+  font-family: "Cairo";
+  src: url('/public/fonts/Cairo/Cairo-ExtraBold.ttf');
+  font-weight: 800;
+  
+}
+@font-face {
+  font-family: "Cairo";
+  src: url('/public/fonts/Cairo/Cairo-Bold.ttf');
+  font-weight: 700;
+  
+}
+@font-face {
+  font-family: "Cairo";
+  src: url('/public/fonts/Cairo/Cairo-SemiBold.ttf');
+  font-weight: 600;
+  
+}
+@font-face {
+  font-family: "Cairo";
+  src: url('/public/fonts/Cairo/Cairo-Medium.ttf');
+  font-weight: 500;
+  
+}
+@font-face {
+  font-family: "Cairo";
+  src: url('/public/fonts/Cairo/Cairo-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Cairo";
+  src: url('/public/fonts/Cairo/Cairo-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Cairo";
+  src: url('/public/fonts/Cairo/Cairo-ExtraLight.ttf');
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Tajawal";
+  src: url('/public/fonts/Tajawal/Tajawal-Black.ttf');
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Tajawal";
+  src: url('/public/fonts/Tajawal/Tajawal-ExtraBold.ttf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Tajawal";
+  src: url('/public/fonts/Tajawal/Tajawal-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Tajawal";
+  src: url('/public/fonts/Tajawal/Tajawal-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Tajawal";
+  src: url('/public/fonts/Tajawal/Tajawal-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Tajawal";
+  src: url('/public/fonts/Tajawal/Tajawal-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Tajawal";
+  src: url('/public/fonts/Tajawal/Tajawal-Light.ttf');
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Amiri";
+  src: url('/public/fonts/Amiri/Amiri-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Amiri";
+  src: url('/public/fonts/Amiri/Amiri-Italic.ttf');
+  font-weight: 500; /*يوجد فيه ميلان ويصلح لخطوط الطويلة*/
+}
+@font-face {
+  font-family: "Amiri";
+  src: url('/public/fonts/Amiri/Amiri-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Amiri";
+  src: url('/public/fonts/Amiri/Amiri-BoldItalic.ttf');
+  font-weight: 800; /*يوجد فيه ميلان ويصلح لخطوط الطويلة*/
+}
+
+/* ====== CUSTOM FONTS =======*/
+a {
+  text-decoration: none !important;
+}
+.whatsapp-float {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  left: auto;
+  right: 15px;
+  background-color: #042343;
+  color: #FFF;
+  border-radius: 50%;
+  z-index: 1000;
+  transform: scaleX(-1);
+}
+body {
+  font-family: "Cairo", sans-serif !important;
+  font-weight: 300 !important;
+}
+
+body * {
+  font-weight: inherit !important;
+}
+.img-fluid{
+  height: auto;
+  max-width: 100%;
+}
+.p-12{
+  padding-inline: 12px;
+}
+.coloricon{
+  color: var(--secondary-color);
+  font-size: 35px;
+  line-height: 45px;
+}
+.boxh5{
+  font-size: 18px;
+  font-weight: 700 !important;
+  margin-bottom: 10px;
+  color: var(--frist-color);
+}
+.boxp{
+  line-height: 1.7em;
+  font-weight: 400 !important;
+  color: #677294;
+  font-family: Amiri;
+  font-size: 1rem;
+}
+.colorblack{
+  color: #000 !important;
+}

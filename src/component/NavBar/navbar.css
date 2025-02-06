@@ -1,0 +1,154 @@
+
+  
+  /* تنسيق عناصر النافبار */
+
+  /* اللون عند التمرير */ 
+  .navbar-nav .nav-link:hover {
+    color: var(--secondary-color); /* لون التمرير على الرابط */ 
+  }
+  
+  /* اللون عند الضغط */
+  .navbar-nav .nav-link:active {
+    color: var(--th-color); /* لون الضغط على الرابط */
+  }
+  
+  
+  
+  /* الشاشات الكبيرة */
+  @media (min-width: 1200px) { 
+    .navbar-nav .nav-link {
+      font-size: 18px; /* حجم أكبر للشاشات الكبيرة */
+    } 
+  }
+  
+  /* الشاشات المتوسطة */
+  @media (min-width: 768px) and (max-width: 1199px) { 
+    .navbar-nav .nav-link {
+      font-size: 16px; /* حجم متوسط للشاشات المتوسطة */
+    }
+  }
+  
+  /* الشاشات الصغيرة */
+  @media (max-width: 767px) { 
+    .navbar-nav .nav-link {
+      font-size: 14px; /* حجم أصغر للشاشات الصغيرة */
+    }
+  }
+  
+/***************************************/
+.sticky-navbar{
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1030 !important; /* تأكد من أن القائمة تظهر فوق المحتوى الآخر */  
+    background-color: #fff !important;
+    padding-block: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+/* الشاشات الكبيرة */
+@media (min-width: 1200px) {
+  .logoimg {
+    width: 150px; /* الحجم المناسب للشاشات الكبيرة */
+    height: auto;
+  }
+}
+
+/* الشاشات المتوسطة */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .logoimg {
+    width: 130px; /* الحجم المناسب للشاشات المتوسطة */
+    height: auto;
+  }
+}
+
+/* الشاشات الصغيرة */
+@media (max-width: 767px) {
+  .logoimg {
+    width: 110px; /* الحجم المناسب للشاشات الصغيرة */
+    height: auto;
+  }
+}
+.bar {
+  padding: 0 !important;
+  border: 0 !important;
+  color: var(--frist-color) !important; /* اللون الأساسي */ 
+  font-size: 20px ;
+}
+.bar:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* تنسيق زر الاتصال */
+.callbtn {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color); /* اللون الجديد */ 
+  transition: background-color 0.5s ease, border-color 0.5s ease !important; /* تأثير الانتقال للزر */
+  color: #fff;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 700 !important; /* الوزن */
+  line-height: 1.5; /* الطول */
+
+  /* الحجم الافتراضي */
+  font-size: 1.25rem;
+
+  /* للاستجابة على الشاشات المختلفة */
+  @media (max-width: 1200px) {
+      font-size: 1.125rem;
+  }
+  @media (max-width: 992px) {
+      font-size: 1rem;
+  }
+  @media (max-width: 768px) {
+      font-size: 0.875rem;
+  }
+  @media (max-width: 576px) {
+      font-size: 0.75rem;
+  }
+}
+
+
+.callbtn:hover {
+  background-color: var(--th-color); /* اللون عند التمرير */
+  border-color: var(--th-color); /* اللون عند التمرير */
+  transition: background-color 0.5s ease, border-color 0.5s ease !important; /* تأثير الانتقال للزر */
+  color: #fff;
+
+}
+.listnav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listnav:hover{
+  background-color: #fff;
+}
+.linav span {
+  font-family: 'Tajawal', sans-serif !important; /* يمكنك تغيير الخط هنا إذا أردت */
+  font-weight: 700 !important; /* الوزن المناسب */ 
+  font-size: 16px; /* الحجم المناسب */ 
+  color: var(--frist-color); /* اللون الأساسي */ 
+  transition: color 0.3s ease; /* تأثير الانتقال للون */
+  text-align: right;
+  margin-right: 5px;
+  padding: 10px 5px;
+  border: 1.5px dashed var(--frist-color);
+}
+.linav:hover span {
+  border: 1.5px dashed var(--th-color); /* لون التمرير على الرابط */ 
+  color: var(--th-color);
+}
+.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters.MuiListItemButton-root.MuiListItemButton-gutters.css-4bx69l-MuiButtonBase-root-MuiListItemButton-root:hover {
+  /* قم بتعيين التأثير إلى فارغ لإزالة أي تأثير هوفر */
+  background-color: transparent; /* مثال على إزالة تغيير لون الخلفية */
+  /* قم بإزالة أي تأثيرات أخرى كما هو مطلوب */
+}
+
+.m--5{
+  margin-right: 15px !important;
+  margin-top: 30px;
+  margin-bottom: 24px;
+
+  
+}
